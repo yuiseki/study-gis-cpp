@@ -14,7 +14,11 @@
         "naturalearthdata",
         "nlohmann",
         "oaicite",
+        "OAMS",
         "OGRERR",
-        "Rwkb"
-    ]
+        "reproject",
+        "Rwkb",
+        "vsimem"
+    ],
+    "cmake.ignoreCMakeListsMissing": true
 }
