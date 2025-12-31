@@ -1,0 +1,20 @@
+{
+    "cSpell.words": [
+        "cgal",
+        "EPSG",
+        "gdal",
+        "geoboundaries",
+        "geofabrik",
+        "geographiclib",
+        "libgeotiff",
+        "libosmium",
+        "libspatialindex",
+        "mapnik",
+        "MGRS",
+        "naturalearthdata",
+        "nlohmann",
+        "oaicite",
+        "OGRERR",
+        "Rwkb"
+    ]
+}

@@ -1,0 +1,9 @@
+build/
+forks/
+!forks/README.md
+datasets/download.geofabrik.de
+!datasets/download.geofabrik.de/.gitkeep
+datasets/www.geoboundaries.org
+!datasets/www.geoboundaries.org/.gitkeep
+datasets/www.naturalearthdata.com
+!datasets/www.naturalearthdata.com/.gitkeep
