@@ -1,0 +1,14 @@
+{
+  "name": "overlap_intersection",
+  "op": "intersection",
+  "a": "POLYGON((0 0,10 0,10 10,0 10,0 0))",
+  "b": "POLYGON((5 5,15 5,15 15,5 15,5 5))",
+  "expect": {
+    "valid": true,
+    "area": 25.0,
+    "perimeter_all_rings": 20.0,
+    "vertices": 5,
+    "diff_abs_area_le": 0.0,
+    "diff_abs_perimeter_le": 0.0
+  }
+}

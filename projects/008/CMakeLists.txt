@@ -28,3 +28,10 @@ target_link_libraries(008 PRIVATE
   nlohmann_json::nlohmann_json
 )
 target_include_directories(008 PRIVATE ${Boost_INCLUDE_DIRS})
+
+# BUILD_TESTING option + enable_testing() を整える
+include(CTest)
+
+if(BUILD_TESTING)
+  add_subdirectory(tests)
+endif()

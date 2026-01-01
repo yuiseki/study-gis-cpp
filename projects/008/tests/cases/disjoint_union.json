@@ -1,0 +1,14 @@
+{
+  "name": "disjoint_union",
+  "op": "union",
+  "a": "POLYGON((0 0,10 0,10 10,0 10,0 0))",
+  "b": "POLYGON((20 20,30 20,30 30,20 30,20 20))",
+  "expect": {
+    "valid": true,
+    "area": 200.0,
+    "perimeter_all_rings": 80.0,
+    "vertices": 10,
+    "diff_abs_area_le": 0.0,
+    "diff_abs_perimeter_le": 0.0
+  }
+}

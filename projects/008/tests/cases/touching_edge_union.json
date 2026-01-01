@@ -1,0 +1,13 @@
+{
+  "name": "touching_edge_union",
+  "op": "union",
+  "a": "POLYGON((0 0,10 0,10 10,0 10,0 0))",
+  "b": "POLYGON((10 0,20 0,20 10,10 10,10 0))",
+  "expect": {
+    "valid": true,
+    "area": 200.0,
+    "perimeter_all_rings": 60.0,
+    "diff_abs_area_le": 0.0,
+    "diff_abs_perimeter_le": 0.0
+  }
+}

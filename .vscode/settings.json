@@ -1,6 +1,9 @@
 {
     "cSpell.words": [
         "cgal",
+        "ctest",
+        "DBUILD",
+        "DCMAKE",
         "EPSG",
         "gdal",
         "geoboundaries",
