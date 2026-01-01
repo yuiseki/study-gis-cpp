@@ -179,7 +179,8 @@ int main(int argc, char** argv) {
     // strategy に与える spheroid (a, f) は WGS84 を使う
     const double WGS84_a = GeographicLib::Constants::WGS84_a();
     const double WGS84_f = GeographicLib::Constants::WGS84_f();
-    bg::srs::spheroid<double> spheroid(WGS84_a, WGS84_f);
+    const double WGS84_b = WGS84_a * (1.0 - WGS84_f); // 短半径 b
+    bg::srs::spheroid<double> spheroid(WGS84_a, WGS84_b);
 
     std::vector<MethodResult> methods;
 
