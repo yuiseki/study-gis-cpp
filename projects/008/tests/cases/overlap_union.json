@@ -9,6 +9,10 @@
     "perimeter_all_rings": 60.0,
     "vertices": 9,
     "diff_abs_area_le": 0.0,
-    "diff_abs_perimeter_le": 0.0
+    "diff_abs_perimeter_le": 0.0,
+    "wkt": {
+      "equal": false,
+      "len_diff_gt": 0
+    }
   }
 }

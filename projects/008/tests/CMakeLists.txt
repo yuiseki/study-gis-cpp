@@ -14,6 +14,7 @@ foreach(case_file IN LISTS CASE_FILES)
             "${CMAKE_CURRENT_LIST_DIR}/run_case.py"
             --exe "$<TARGET_FILE:008>"
             --case "${case_file}"
+            --emit-wkt
   )
 
   # 失敗時にstdout/stderrを見やすくするため（任意）
