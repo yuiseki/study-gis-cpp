@@ -1,0 +1,8 @@
+{
+  "name": "near_antimeridian_union",
+  "op": "union",
+  "a": "POLYGON((179.0 10,179.8 10,179.8 11,179.0 11,179.0 10))",
+  "b": "POLYGON((179.5 10.5,179.9 10.5,179.9 11.5,179.5 11.5,179.5 10.5))",
+  "run": { "samples": 600, "seed": 5, "expand_deg": 1.0 },
+  "expect": { "exit_code": 0, "mismatch_count_eq": 0, "mismatch_rate_le": 0.0, "s2_valid_true": true }
+}

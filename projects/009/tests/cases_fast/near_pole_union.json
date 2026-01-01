@@ -1,0 +1,8 @@
+{
+  "name": "near_pole_union",
+  "op": "union",
+  "a": "POLYGON((0 88,10 88,10 89,0 89,0 88))",
+  "b": "POLYGON((5 88.5,15 88.5,15 89.5,5 89.5,5 88.5))",
+  "run": { "samples": 600, "seed": 4, "expand_deg": 2.0 },
+  "expect": { "exit_code": 0, "mismatch_count_eq": 0, "mismatch_rate_le": 0.0, "s2_valid_true": true }
+}

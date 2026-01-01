@@ -4,6 +4,8 @@
         "ctest",
         "DBUILD",
         "DCMAKE",
+        "endforeach",
+        "endfunction",
         "EPSG",
         "gdal",
         "geoboundaries",

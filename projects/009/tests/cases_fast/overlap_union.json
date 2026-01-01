@@ -1,0 +1,13 @@
+{
+  "name": "overlap_union",
+  "op": "union",
+  "a": "POLYGON((139 35,140 35,140 36,139 36,139 35))",
+  "b": "POLYGON((139.5 35.5,140.5 35.5,140.5 36.5,139.5 36.5,139.5 35.5))",
+  "run": { "samples": 600, "seed": 1, "expand_deg": 1.0 },
+  "expect": {
+    "exit_code": 0,
+    "mismatch_count_eq": 0,
+    "mismatch_rate_le": 0.0,
+    "s2_valid_true": true
+  }
+}

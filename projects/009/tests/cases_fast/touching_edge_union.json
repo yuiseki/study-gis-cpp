@@ -1,0 +1,8 @@
+{
+  "name": "touching_edge_union",
+  "op": "union",
+  "a": "POLYGON((139 35,140 35,140 36,139 36,139 35))",
+  "b": "POLYGON((140 35,141 35,141 36,140 36,140 35))",
+  "run": { "samples": 800, "seed": 2, "expand_deg": 1.0 },
+  "expect": { "exit_code": 0, "mismatch_count_eq": 0, "mismatch_rate_le": 0.0, "s2_valid_true": true }
+}
